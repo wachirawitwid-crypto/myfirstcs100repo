@@ -1,0 +1,52 @@
+body {
+    background-color: #edecf1;
+    font-family: Arial, sans-serif;
+    color: #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;  
+    width: 760px;
+    background-color: white;
+    padding: 50px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content h1 {
+    font-size: 50px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+#job-title{
+    color: blue;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.content p {
+    text-align: left;
+}
+#details {
+    margin-top: 30px;
+    text-align: left;
+    width: 100%;
+}
+#download-cv {
+    border:#222222 1px solid;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-left: center;
+    margin-right: center;
+}
